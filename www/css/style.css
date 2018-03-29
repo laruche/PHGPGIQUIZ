@@ -566,7 +566,7 @@ button:focus {
   background: url('../img/bgQuizz1P.jpg');
 }
 #twoPlayerPage {
-  width: 970px;
+  width: 975px;
   height: 600px;
   background: url('../img/bgQuizz2P.jpg') top center no-repeat;
   background-size: cover;
