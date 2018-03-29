@@ -568,7 +568,12 @@ var app = {
         } else {
           Price.show();
         }
-      })
+      });
+
+      $('#onePlayerPageScore .buttonClose').click(function() {
+          Price.dotation = {};
+          home.show();
+      });
     }
 };;var twoPlayer = {
     // Application Constructor
@@ -669,7 +674,11 @@ var app = {
           $('#pageLoose').show();
           $('#twoPlayerPageScore').hide();
         }
+      });
 
+      $('#twoPlayerPageScore .buttonClose').click(function() {
+          Price.dotation = {};
+          home.show();
       });
     }
 };;var quiz = {

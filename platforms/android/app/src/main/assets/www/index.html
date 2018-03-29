@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+
+        <link rel="manifest" href="site.webmanifest">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div id="page1" class="page">
+            <div class="container">
+              <a href="#" id="startQuizz"></a>
+            </div>
+            <div id="showHotesse"></div>
+        </div>
+
+        <div id="page2" class="page">
+            <a href="#" id="onePlayer"></a>
+            <a href="#" id="twoPlayer"></a>
+        </div>
+
+        <div id="onePlayerPage" class="page">
+          <div class="questionZone">
+            <h1>Question <span></span>/5</h1>
+            <span class="question">QUELLE EST L'ÉQUIPE QUI A REMPORTÉ LA COUPE DU MONDE EN 2006 ?</span>
+            <div class="responses">
+              <div class="response r1" rev="A"></div>
+              <div class="response r2" rev="B"></div>
+              <div class="response r3" rev="C"></div>
+              <div class="response r4" rev="D"></div>
+            </div>
+            <a href="#" class="buttonValider"></a>
+          </div>
+        </div>
+
+        <div id="twoPlayerPage" class="page">
+          <div class="questionZone">
+            <h1>Question <span></span>/5</h1>
+            <span class="question">QUELLE EST L'ÉQUIPE QUI A REMPORTÉ LA COUPE DU MONDE EN 2006 ?</span>
+            <div class="responses">
+              <div class="response r1" rev="A"></div>
+              <div class="response r2" rev="B"></div>
+              <div class="response r3" rev="C"></div>
+              <div class="response r4" rev="D"></div>
+            </div>
+            <a href="#" class="buttonValider"></a>
+          </div>
+        </div>
+
+        <div id="twoPlayerPageSelectPlayer" class="page">
+            <a href="#" id="onePlayerSelect" rev="A"></a>
+            <a href="#" id="twoPlayerSelect" rev="B"></a>
+        </div>
+
+        <div id="onePlayerPageScore" class="page">
+            <div class="score"></div>
+            <div class="buttonNext"></div>
+            <div class="buttonClose"></div>
+        </div>
+
+        <div id="twoPlayerPageScore" class="page">
+            <div class="scoreA"><span></span></div>
+            <div class="scoreB"><span></span></div>
+            <div class="buttonNext"></div>
+            <div class="buttonClose"></div>
+        </div>
+
+        <div id="pagePrice" class="page">
+            <div id="price"></div>
+            <div class="buttonNext"></div>
+            <div class="buttonClose"></div>
+        </div>
+
+        <div id="pageSave" class="page">
+            <div class="selectProduct">
+                <div class="selector jetable" rev="jetable"><div class="alpha"></div></div>
+                <div class="selector systeme" rev="systeme"><div class="alpha"></div></div>
+                <div class="selector mousse" rev="mousse"><div class="alpha"></div></div>
+            </div>
+
+            <div class="selectPrice">
+                <div class="selector prix60100" rev="prix60100"><div class="alpha"></div></div>
+                <div class="selector prix100150" rev="prix100150"><div class="alpha"></div></div>
+                <div class="selector prix150" rev="prix150"><div class="alpha"></div></div>
+            </div>
+            <div class="buttonEnd"></div>
+            <div class="buttonClose"></div>
+        </div>
+
+        <div id="pageLoose" class="page">            
+            <div class="buttonEnd"></div>
+            <div class="buttonClose"></div>
+        </div>
+
+        <div id="hotesse" class="page">
+            <h2>Indiquer les quantités de dotation disponible</h2>
+            <h3>Mousse à raser</h3>
+            <input type="number" id="dotation_0" min="0" />
+            <h3>Ballon</h3>
+            <input type="number" id="dotation_1" min="0" />
+            <h3>Trousse</h3>
+            <input type="number" id="dotation_2" min="0" />
+            <h3>Casquette</h3>
+            <input type="number" id="dotation_3" min="0"  />
+            <br/><br/><br/>
+            <button id="validate" class="add" type="button">Valider</button>
+            <br/><br/><br/>
+            <button id="retour" class="back" type="button">Retour</button>
+            <br/><br/><br/>
+            <button id="vider" class="vider" type="button">Vider</button>
+        </div>
+        
+
+        <script src="js/app.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+
+        
+    </body>
+</html>

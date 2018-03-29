@@ -1,9 +1,9 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "helloworld",
-  "short_name": "helloworld",
-  "version": "com.phonegap.helloworld",
+  "name": "Gilette Quizz",
+  "short_name": "Gilette Quizz",
+  "version": "com.smms.com2market.gilettequizz",
   "description": "Hello World sample application that responds to the deviceready event.",
   "author": "PhoneGap Team",
   "icons": [],
